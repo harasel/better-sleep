@@ -189,7 +189,9 @@ button { font: inherit; cursor: pointer; border: 0; background: transparent; col
 }
 @media (max-width: 560px) {
   .grid-4 { grid-template-columns: 1fr; }
-  .h-hero { font-size: clamp(3.2rem, 10vw, 6rem); }
+  .h-hero{
+    font-size: clamp(3.2rem, 10vw, 6rem);
+  }
 }
 
 /* ============ Timeline (Scene 4) ============ */
